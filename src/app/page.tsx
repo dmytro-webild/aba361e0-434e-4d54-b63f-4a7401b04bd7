@@ -52,12 +52,12 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
-            { id: "carousel-1", imageSrc: "http://img.b2bpic.net/free-photo/barber-giving-high-five-client_23-2147737095.jpg", imageAlt: "professional barber shop interior modern design" },
-            { id: "carousel-2", imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg", imageAlt: "barber cutting men's hair professional fade" },
-            { id: "carousel-3", imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-man-barbershop_23-2148506245.jpg", imageAlt: "barber grooming beard trimming shaping" },
-            { id: "carousel-4", imageSrc: "http://img.b2bpic.net/free-photo/cropped-image-bearded-man-using-electric-razor_171337-17324.jpg", imageAlt: "traditional straight razor shave barbershop" },
-            { id: "carousel-5", imageSrc: "http://img.b2bpic.net/free-photo/barber-giving-high-five-client_23-2147737095.jpg", imageAlt: "professional barber shop interior modern design" },
-            { id: "carousel-6", imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg", imageAlt: "barber cutting men's hair professional fade" }
+            { id: "carousel-1", imageSrc: "http://img.b2bpic.net/free-photo/barber-giving-high-five-client_23-2147737095.jpg?_wi=1", imageAlt: "professional barber shop interior modern design" },
+            { id: "carousel-2", imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg?_wi=1", imageAlt: "barber cutting men's hair professional fade" },
+            { id: "carousel-3", imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-man-barbershop_23-2148506245.jpg?_wi=1", imageAlt: "barber grooming beard trimming shaping" },
+            { id: "carousel-4", imageSrc: "http://img.b2bpic.net/free-photo/cropped-image-bearded-man-using-electric-razor_171337-17324.jpg?_wi=1", imageAlt: "traditional straight razor shave barbershop" },
+            { id: "carousel-5", imageSrc: "http://img.b2bpic.net/free-photo/barber-giving-high-five-client_23-2147737095.jpg?_wi=2", imageAlt: "professional barber shop interior modern design" },
+            { id: "carousel-6", imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg?_wi=2", imageAlt: "barber cutting men's hair professional fade" }
           ]}
           autoPlay={true}
           autoPlayInterval={4000}
@@ -82,13 +82,13 @@ export default function LandingPage() {
           tag="Services"
           features={[
             {
-              id: "haircut",              title: "Premium Haircuts",              description: "Expert fades, textured cuts, and classic styles tailored to your unique look and lifestyle.",              tag: "Popular",              imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg",              imageAlt: "barber cutting men's hair professional fade"
+              id: "haircut",              title: "Premium Haircuts",              description: "Expert fades, textured cuts, and classic styles tailored to your unique look and lifestyle.",              tag: "Popular",              imageSrc: "http://img.b2bpic.net/free-photo/adult-hairdresser-shaving-customers-beard-hair-salon_23-2148181971.jpg?_wi=3",              imageAlt: "barber cutting men's hair professional fade"
             },
             {
-              id: "beard",              title: "Beard Grooming",              description: "Professional beard shaping, trimming, and conditioning for a refined, well-maintained appearance.",              tag: "Specialty",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-man-barbershop_23-2148506245.jpg",              imageAlt: "barber grooming beard trimming shaping"
+              id: "beard",              title: "Beard Grooming",              description: "Professional beard shaping, trimming, and conditioning for a refined, well-maintained appearance.",              tag: "Specialty",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-man-barbershop_23-2148506245.jpg?_wi=2",              imageAlt: "barber grooming beard trimming shaping"
             },
             {
-              id: "shave",              title: "Classic Straight Shave",              description: "Traditional hot lather shave with premium products and expert technique for ultimate comfort and precision.",              tag: "Signature",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-image-bearded-man-using-electric-razor_171337-17324.jpg",              imageAlt: "traditional straight razor shave barbershop"
+              id: "shave",              title: "Classic Straight Shave",              description: "Traditional hot lather shave with premium products and expert technique for ultimate comfort and precision.",              tag: "Signature",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-image-bearded-man-using-electric-razor_171337-17324.jpg?_wi=2",              imageAlt: "traditional straight razor shave barbershop"
             }
           ]}
           animationType="slide-up"
